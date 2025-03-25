@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html ordered list,image,table,forms</title>
+
+    </head>
+    <body>
+        <h2>ordered lists</h2>
+        <ol type="i" start="1">
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Watermelon</li>
+            <li>Pawpaw</li>
+            <li>Apple</li>
+            
+        </ol>
+        
+    <h2>Html Image</h2>
+    <img src="https://images.pexels.com/photos/30391097/pexels-photo-30391097.jpeg" alt="image of yellow flower" width="500" height="500">
+    </body>
+    <h2>html tables</h2>
+    <table border="5">
+        <tr>
+            <th>name</th>
+            <th>address</th>
+            <th>mobile number</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>1234 Nairobi</td>
+            <td>0712345678</td>
+            <td>john123@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Dennis></td>
+            <td>1234 Kisumu</td>
+            <td>0712345678</td>
+            <td>dennis39@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td> Mombasa 001</td>
+            <td>0712345678</td>
+            <td>daniel32@gmail.com</td>
+        </tr>
+        <tr >
+            <td>David</td>
+            <td>1234 Nakuru</td>
+            <td>0712345678</td>
+            <td>David45@gmail.com</td> 
+        </tr>
+        <tr>
+            <td>Nancy</td>
+            <td>1234 nanyuki</td>
+            <td>0712345678</td>
+            <td>nancy45@gmail.com</td> 
+        </tr>
+    </table>
+    <h2>html forms</h2>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="enter your name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="enter your email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="enter your password" required><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br>
+        <input type="submit" value="Submit">
+
+</html>
